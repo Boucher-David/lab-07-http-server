@@ -9,7 +9,8 @@
   },
   "scripts": {
     "test": "mocha",
-    "eslint": "eslint --fix **/lib && eslint --fix index.js"
+    "eslint": "eslint --fix **/lib && eslint --fix index.js",
+    "start": "nodemon ./index.js"
   },
   "author": "",
   "license": "ISC",
@@ -20,6 +21,7 @@
   },
   "dependencies": {
     "cowsay": "^1.2.1",
-    "dotenv": "^4.0.0"
+    "dotenv": "^4.0.0",
+    "nodemon": "^1.12.1"
   }
 }
